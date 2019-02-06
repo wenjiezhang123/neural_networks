@@ -14,7 +14,7 @@ has following error:
 OMP: Error #15: Initializing libiomp5.dylib, but found libiomp5.dylib already initialized.
 there are two ways to solve it:
 conda install nomkl
-=====================
+OR
 import os
 os.environ['KMP_DUPLICATE_LIB_OK']='True'
 
